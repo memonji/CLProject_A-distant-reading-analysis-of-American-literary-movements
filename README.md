@@ -1,6 +1,6 @@
 # CLProject_A-distant-reading-analysis-of-American-Literary-Movements
 Computational Linguistics 2022/2023
-Emma A. Montecchiari & Juliette Napoli-Jacobs
+Emma A. Montecchiari & Juliette Napoli-Jacob
 
 This repository contains the coding material we used for our project.
 
