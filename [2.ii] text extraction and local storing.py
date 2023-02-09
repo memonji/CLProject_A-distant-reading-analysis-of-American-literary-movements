@@ -17,12 +17,12 @@ from nltk.stem import WordNetLemmatizer
 title = 'Ulysses'
 author = 'James Joyce'
 url = 'https://www.gutenberg.org/files/4300/4300-0.txt'
-path = '/Users/renato/PycharmProjects/CLProject/corpus/'
+path = ''
 
 def find_text(raw):
     pass
 
-def text_from_gutenberg(title, author, url, path='/Users/renato/PycharmProjects/CLProject/corpus/', return_raw=False,
+def text_from_gutenberg(title, author, url, path='', return_raw=False,
                         return_tokens=False):
     title = title.lower()
     author = title.lower()
