@@ -26,8 +26,6 @@ def preprocessing(text):
     stop_words = set(nltk.corpus.stopwords.words("english"))
 
     lower_text = text.lower()
-    #punc_chars = string.punctuation + '"'
-    #no_punct_corpus = lower_text.translate(str.maketrans("", "", punc_chars))
     no_punct_corpus = lower_text.translate(str.maketrans ("", "", string.punctuation))
     no_number_corpus = re.sub(r'\d+', '', no_punct_corpus)
     no_number_corpus = str(no_number_corpus)
